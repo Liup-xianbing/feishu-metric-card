@@ -8,7 +8,7 @@ declare global {
 
 const App: React.FC = () => {
   const [config, setConfig] = useState<any>(null);
-  const [records, setRecords] = useState<any[]>([]);
+  const [records] = useState<any[]>([]);
   const [data, setData] = useState<any>({});
   const [mounted, setMounted] = useState(false);
 
